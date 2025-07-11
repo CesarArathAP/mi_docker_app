@@ -9,7 +9,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
 # Configuración
-from bot.keys.keys import TELEGRAM_TOKEN, GEMINI_API_KEY
+from keys.keys import TELEGRAM_TOKEN, GEMINI_API_KEY
 MAX_FILE_SIZE = 100 * 1024 * 1024  # 100MB
 
 # Configurar Gemini
